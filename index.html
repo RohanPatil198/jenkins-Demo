@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <title>My Website</title>
-  </head>
-  <body>
-    <h1>My Website v1.0</h1>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Beautiful Test Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 10px;
+      color: #ff6f61;
+    }
+    button {
+      padding: 10px 20px;
+      background: #ff6f61;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #e85c50;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello, Beautiful World ✨</h1>
+    <p>This is a simple but elegant test page.</p>
+    <button onclick="alert('You clicked the button! 🌟')">Click Me</button>
+  </div>
+</body>
 </html>
